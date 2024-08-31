@@ -3,17 +3,17 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const layout = () => {
+const Index = () => {
   return (
     <View className="flex justify-center items-center" style={styles.container}>
-      <Text className="text-3xl font-pblack">React Native</Text>
+      <Text className="font-pblack">React Native</Text>
       <StatusBar style="auto" />
       <Link href="/profile">profile</Link>
     </View>
   );
 };
 
-export default layout;
+export default Index;
 
 const styles = StyleSheet.create({
   container: {
